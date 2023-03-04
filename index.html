@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="msapplication-TileColor" content="#5dde95">
+    <meta name="theme-color" content="#5dde95">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HEELY DOG</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+      html, body {
+        color: #fff;
+        position: relative;
+      }
+      video {
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
+      .navbar .navbar-brand {
+        width: 50px;
+        height: 50px;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      #content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #content h1 {
+        font-family: 'Sketter';
+        font-size: 5rem;
+      }
+      #content a.icon {
+        display: inline-block;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 100%;
+        padding: 1rem;
+      }
+      #content a.icon img {
+        height: 2rem;
+        filter: invert(1);
+      }
+      @font-face {
+        font-family: Sketter;
+        src: url(sketter.ttf);
+      }
+      @media only screen and (max-width: 991.98px) {
+        #content h1 {
+          font-size: 2.5rem;
+        }
+        #content a.icon {
+          height: 3rem;
+          width: 3rem;
+          padding: 0.65rem;
+        }
+        #content a.icon img {
+          height: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video playsinline autoplay muted loop poster="heelys.jpg">
+      <source src="heelys.webm" type="video/webm">
+      <source src="heelys.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar navbar-dark bg-transparent">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="https://kovu.dog">
+        <img src="https://kovu.dog/images/avatar.webp" alt="KovuTheHusky" class="h-100 rounded-circle">
+      </a>
+    </div>
+    </nav>
+    <div id="content">
+      <div>
+        <h1>HEELY DOG</h1>
+        <a href="https://kovu.dog" class="icon" style="background-color: #5dde95;"><img src="link.svg"></a>
+        <a href="https://twitter.com/kovuthehusky" class="icon" style="background-color: #1da1f2;"><img src="twitter.svg"></a>
+        <a href="https://tiktok.com/@kovuthehusky" class="icon" style="background-color: #000;"><img src="tiktok.svg"></a>
+        <a href="https://instagram.com/kovuthehusky" class="icon" style="background-color: #e4405f;"><img src="instagram.svg"></a>
+        <!-- <a href="https://kovu.dog" class="btn btn-primary btn-lg">Website</a> -->
+      </div>
+    </div>
+  </body>
+</html>  
